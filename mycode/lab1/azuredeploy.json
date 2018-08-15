@@ -1,0 +1,21 @@
+{
+    "$#": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "name": "jtjarmlabstorage1",
+            "apiVersion": "2015-06-15",
+            "location": "[resourceGroup().location]",
+            "tags": {
+                "displayName": "jtjarmlabstorage1"
+            },
+            "properties": {
+                "accountType": "Standard_LRS"
+            }
+        }
+    ],
+    "outputs": {}
+}
