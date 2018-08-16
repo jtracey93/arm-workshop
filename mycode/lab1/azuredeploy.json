@@ -5,6 +5,8 @@
         "storageAccountPrefix": {
             "type": "string",
             "defaultValue": "jtjtestsac",
+            "maxLength": 11,
+            "minLength": 3,
             "metadata": {
                 "description": "Storage Account Prefix"
             }
